@@ -1,0 +1,28 @@
+git --version
+
+1. Configure Git
+git config --global user.name "ShayanDodge"
+git config --global user.email "dodgeshayan@gmail.com"
+
+2. Git Help
+git command -help -  See all the available options for the specific command
+git help --all -  See all possible commands
+
+3. Clone your repository to your local system
+cd ~
+mkdir repos
+cd ~/repos
+git clone URL
+
+4. Then we check the Git status and see if it is a part of our repo
+git status
+
+5. So we can add it to the Staging Environment
+git add code_name.txt
+git add -- all
+
+6. Git Commit
+git commit -m "First release of Hello World!"
+
+7. Push Changes to GitHub
+git push origil
